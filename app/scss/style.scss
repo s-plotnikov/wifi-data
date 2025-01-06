@@ -1,0 +1,55 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+@import 'hover';
+
+.table-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: min-content;
+  position: relative;
+}
+
+.table-wrapper table {
+  border-collapse: collapse;
+  white-space: nowrap;
+  margin-left: -1px;
+}
+.table-wrapper table td {
+  border: 1px solid #ccc;
+  padding: 2px 4px;
+}
+.table-wrapper table caption {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 2px 4px;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.table-numbers {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.table-numbers tr:first-child td {
+  color: #fff;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.goroda {
+  display: none;
+}
+
+
+
+@import 'media';
